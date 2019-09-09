@@ -1,13 +1,13 @@
 import { Injectable } from "@angular/core";
 import { HttpClient, HttpHeaders } from "@angular/common/http";
-import { Item } from "./item";
+import { Item } from "../models";
 import { Observable, throwError } from "rxjs";
 import { retry, catchError } from "rxjs/operators";
 
 @Injectable({
   providedIn: "root"
 })
-export class ItemsService {
+export class ItemService {
   // Base url
   baseurl = "http://localhost:3000";
 

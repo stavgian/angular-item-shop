@@ -2,15 +2,52 @@
   "items": [
     {
       "id": 1,
-      "title": "item1"
+      "title": "item1",
+      "userId": 3
     },
     {
       "id": 2,
-      "title": "item2"
+      "title": "item2",
+      "userId": 3
     },
     {
       "title": " test",
-      "id": 5
+      "id": 5,
+      "userId": 3
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "admin",
+      "password": "admin",
+      "firstName": "Admin",
+      "lastName": "User",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "username": "user",
+      "password": "user",
+      "firstName": "Normal",
+      "lastName": "User",
+      "role": "User"
+    },
+    {
+      "id": 3,
+      "username": "merchant",
+      "password": "merchant",
+      "firstName": "Merchant",
+      "lastName": "Merchant",
+      "role": "Merchant"
+    },
+    {
+      "firstName": "stavgian",
+      "lastName": "stavgian",
+      "username": "stavgian",
+      "role": "Merchant",
+      "password": "stavgian",
+      "id": 4
     }
   ]
 }
